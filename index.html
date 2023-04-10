@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .ucc-col {
+      padding: 2rem;
+      margin: 1rem 0;
+      min-height: 10rem;
+    }
+
+    #rapid-time-change {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+  <title>UCC</title>
+</head>
+
+<body>
+  <!-- UCC Section Color Change -->
+  <div id="ucc-color-change" class="ucc-col">
+    <div class="ucc-page-title">RICCI ALBENDA: UNIVERSAL COLOR CLOCK</div>
+    <div id="current-time"></div>
+    <div id="universal-color-code">UNIVERSAL HUE CODE: <span id="color-code"></span></div>
+  </div>
+
+  <!-- Alarm / Edition Section Color Change -->
+  <div id="color-chip-container" class="ucc-col">
+    <div id="color-chip-text-box">
+      <div>EDITION/ALARM COLOR</div>
+      <div id="color-chip-time"></div>
+      <div>UH CODE: <span id="color-chip-code"></span></div>
+    </div>
+  </div>
+
+  <!-- Rapid Color Change -->
+  <div id="ucc-rapid-color-change" class="ucc-col">
+    <div class="ucc-header-text">
+      <div id="left-ucc-gradient">RAPID COLOR CHANGE</div>
+      <div id="rapid-time-change"></div>
+    </div>
+  </div>
+
+
+
+  <script src="color_data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
